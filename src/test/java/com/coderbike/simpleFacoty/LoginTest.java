@@ -17,6 +17,7 @@ public class LoginTest {
         String loginTyep = "password";
         String username = "imant";
         String password = "123456";
+        String name = "Tome";
 
         Login login = LoginManager.factoty(loginTyep);
         System.out.println(login.verify(username, password));
